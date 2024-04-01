@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOSSit'24 Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .registration-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .registration-card {
+            width: calc(33.33% - 20px);
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .registration-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .registration-card .card-content {
+            padding: 20px;
+        }
+
+        .registration-card h2 {
+            margin-top: 0;
+        }
+
+        .registration-card p {
+            margin: 10px 0;
+        }
+
+        .registration-card a {
+            display: block;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .registration-card a:hover {
+            background-color: #0056b3;
+        }
+
+        @media screen and (max-width: 768px) {
+            .registration-card {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .registration-card {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>FOSSit'24 Registration</h1>
+    </header>
+
+    <div class="container">
+        <div class="registration-cards">
+            <div class="registration-card">
+                <img src="solo_image.jpg" alt="Solo Registration">
+                <div class="card-content">
+                    <h2>Solo Registration</h2>
+                    <p>Register as an individual participant for FOSSit'24.</p>
+                    <a href="https://www.vitchennaievents.com/conf1/index.php?eventid=2008">Register Now</a>
+                </div>
+            </div>
+
+            <div class="registration-card">
+                <img src="duo_image.jpg" alt="Duo Registration">
+                <div class="card-content">
+                    <h2>Duo Registration</h2>
+                    <p>Register with a partner for FOSSit'24.</p>
+                    <a href="https://www.vitchennaievents.com/conf1/index.php?eventid=2009">Register Now</a>
+                </div>
+            </div>
+
+            <div class="registration-card">
+                <img src="trio_image.jpg" alt="Trio Registration">
+                <div class="card-content">
+                    <h2>Trio Registration</h2>
+                    <p>Register as a team of three for FOSSit'24.</p>
+                    <a href="https://www.vitchennaievents.com/conf1/index.php?eventid=2010">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
